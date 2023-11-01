@@ -14,7 +14,7 @@ sudo apt-get install -y git python3-pip
 
 
 2. install [usb gadget module](https://github.com/thewh1teagle/zero-hid/tree/main/usb_gadget#usb-gadget-module-configuration-for-zero-hid)
-3. move zero_hid folder to your python library directory in my beepy its on "/home/User/.local/lib/python3.9/site-packages"
+3. move zero_hid folder to your python library directory in my beepy its on "/home/YOURUSER/.local/lib/python3.9/site-packages"
 
 ## Usage
 Note: You should connect the data usb port (left one) to the raspberry, and NOT the power port  
