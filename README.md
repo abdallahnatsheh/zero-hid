@@ -3,7 +3,7 @@
 HID python library for emulating mouse and keyboard on PI zero.
 
 ## Setup - Tested on [Raspbian](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit) lite 5.10
-##      - Tested on BEEPY X SQFMI [Beepy](https://beepy.sqfmi.com)
+##      * Tested on BEEPY X SQFMI [Beepy](https://beepy.sqfmi.com)
 
 1. Install apt dependencies
 
@@ -14,7 +14,7 @@ sudo apt-get install -y git python3-pip
 
 
 2. install [usb gadget module](https://github.com/thewh1teagle/zero-hid/tree/main/usb_gadget#usb-gadget-module-configuration-for-zero-hid)
-3. move zero_hid file to your python library directory in my beepy its on "/home/<User>/.local/lib/python3.9/site-packages"
+3. move zero_hid folder to your python library directory in my beepy its on "/home/<User>/.local/lib/python3.9/site-packages"
 
 ## Usage
 Note: You should connect the data usb port (left one) to the raspberry, and NOT the power port  
