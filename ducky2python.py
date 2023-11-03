@@ -44,18 +44,7 @@ if duckyScript[0][:7] == "DEFAULT":
 previousStatement = ""
 
 # Parallel command lists: 
-# The first list contains the ducky commands and the second contains the corresponding pyautogui commands
-duckyCommands = ["WINDOWS", "GUI", "APP", "MENU", "SHIFT", "ALT", "CONTROL", "CTRL", "DOWNARROW", "DOWN",
-                 "LEFTARROW", "LEFT", "RIGHTARROW", "RIGHT", "UPARROW", "UP", "BREAK", "PAUSE", "CAPSLOCK", "DELETE",
-                 "END",
-                 "ESC", "ESCAPE", "HOME", "INSERT", "NUMLOCK", "PAGEUP", "PAGEDOWN", "PRINTSCREEN", "SCROLLLOCK",
-                 "SPACE",
-                 "TAB", "ENTER", " a", " b", " c", " d", " e", " f", " g", " h", " i", " j", " k", " l", " m", " n",
-                 " o", " p", " q", " r", " s", " t",
-                 " u", " v", " w", " x", " y", " z", " A", " B", " C", " D", " E", " F", " G", " H", " I", " J", " K",
-                 " L", " M", " N", " O", " P",
-                 " Q", " R", " S", " T", " U", " V", " W", " X", " Y", " Z"]
-
+# The Dictionary contains the ducky commands.
 ducky_to_zero_hid = {
     "WINDOWS": "KeyCodes.MOD_LEFT_GUI",
     "GUI": "KeyCodes.MOD_LEFT_GUI",
